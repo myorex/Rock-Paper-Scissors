@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  transform: scale(1.1);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.results {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+.tie {
+  color: gray;
+}
+
+#game-status {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#restart {
+  margin-top: 20px;
+}
